@@ -7,4 +7,9 @@ public class Abogado extends Empleado{
     public double getSalario(){
         return super.getSalario()+1000;
     }
+    @Override
+    public int getHoras(){
+        return super.getHoras()+3;
+
+    }
 }
